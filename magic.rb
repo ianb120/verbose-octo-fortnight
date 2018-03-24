@@ -27,7 +27,7 @@ MMMMMMMM               MMMMMMMM  aaaaaaaaaa  aaaa   gggggggg::::::g iiiiiiii    
 
 def magic_ans
 
-ans = {
+  ans = {
      1 => "It is certain",
      2 => "It is decidedly so",
      3 => "Without a doubt",
@@ -48,7 +48,7 @@ ans = {
     18 => "My sources say no",
     19 => "Outlook not so good",
     20 => "Very doubtful",
-}
+  }
 
 end
 
@@ -61,6 +61,3 @@ resp = gets.chomp
 
 puts "You asked #{resp}"
 puts "Magic 8-Ball says: #{magic_ans[rand_ans]}"
-
-
-
